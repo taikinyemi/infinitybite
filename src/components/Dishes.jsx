@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assets/img/img7.jpg";
+import img1 from "../assets/img/img1.jpg";
 import img2 from "../assets/img/img2.jpg";
 import img3 from "../assets/img/img3.jpg";
 import img4 from "../assets/img/img4.jpg";
@@ -15,7 +15,7 @@ const Dishes = () => {
       </h1>
 
       <div className=" flex flex-wrap gap-8 justify-center">
-        <DishesCard img={img1} title="Pounded Yam" price="$10.99" />
+        <DishesCard img={img1} title="Tasty Dish" price="$10.99" />
         <DishesCard img={img2} title="Tasty Dish" price="$12.99" />
         <DishesCard img={img3} title="Tasty Dish" price="$10.99" />
         <DishesCard img={img4} title="Tasty Dish" price="$11.99" />
